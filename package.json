@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "node_modules/.bin/docsify serve ../tiga.docs -p 2260",
+    "prepdf": "node ./pdfix.js",
+    "pdf": "node_modules/docsify-pdf-converter/src/cli.js"
+  },
+  "dependencies": {
+    "docsify-cli": "^4.4.4",
+    "docsify-pdf-converter": "2.1.0-beta.0",
+    "easy-pdf-merge": "^0.2.6",
+    "fs-extra": "^10.1.0"
+  }
+}
